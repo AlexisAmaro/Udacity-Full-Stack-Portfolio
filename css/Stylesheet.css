@@ -1,0 +1,104 @@
+body {
+  background: white;
+  font: 13px/1.6 "Helvetica";
+  margin: 3px;
+  line-height: 21px;
+}
+ img {
+   max-width: 100%;
+ }
+ h1, h2, h3, h4, h5, h6 {
+   font-weight: 500;
+   line-height: 1.1;
+   margin-top: 0;
+   margin-bottom: .5rem;
+ }
+ /*This is where the Header begins*/
+ header {
+   padding-top:10px;
+ }
+ header .container{
+   max-width: 980px;
+   display: flex;
+   position: relative;
+ }
+ header .line {
+   border-bottom: solid 4px;
+   color: black;
+   width: 100%
+ }
+ header .leftCol {
+   width: 90%;
+   float: right;
+ }
+ header .rightCol {
+   width: 90%;
+   text-align: right;
+   float: right;
+ }
+ header .rightCol .name {
+   padding-bottom:5px;
+   font-weight: normal;
+   text-transform: uppercase;
+ }
+ header .rightCol .career{
+   font-size: 15px;
+   font-weight: normal;
+   line-height: 21px;
+ }
+ #logo {
+   border-radius:100%;
+   width: 80px;
+   height: 80px;
+   margin: 5px 15px;
+   float: left;
+ }
+ /* This right here ends the styling of the header */
+ h2.heading {
+   text-transform: uppercase;
+   margin: 1.75rem 0;
+   line-height: 0px;
+   font-weight: normal;
+   color: black;
+ }
+ h2.heading span {
+   padding-right: 10px;
+ }
+ .container{
+   max-width:980px;
+   margin: 0 auto;
+   padding: 10px 20px;
+ }
+ /* Portfolio item styling */
+ #items{
+   display: flex;
+ }
+ #items .portfolio-item {
+   background: #fff;
+   width: 32%;
+   margin-bottom: 2%;
+   text-align: left;
+   box-sizing: border-box;
+   flex-shrink: 0;
+   border-radius: 3px;
+ }
+ #items .portfolio-iitem img {
+   border-radius: 3px 3px 0 0;
+ }
+ #items .portfolio-item .text_block {
+   padding: 1.25rem;
+ }
+ #items .portfolio-item h3 {
+   font-size: 18px;
+   color: #444;
+ }
+ #items .portfolio-item:nth-child(3n-1) {
+   margin-right:2%;
+   margin-left: 2%;
+ }
+ /*This here ends styling of portfolio-items */
+ footer {
+   max-width:980px;
+   margin: 0 auto;
+   padding:10px 20px;
+ }
